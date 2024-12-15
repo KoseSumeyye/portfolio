@@ -1,0 +1,32 @@
+header, footer {background-color: #4e3b3a;}
+a.nav-link, p.madeby {color: rgb(203, 195, 195);}
+main {color: rgb(51, 47, 47);}
+h2.titel {text-shadow: 0.5px 0.5px rgb(151, 150, 150);}
+article.artikel {background-color: #dfd3d1;}
+section.s1 {color: rgb(247, 241, 241); background-color: #93716f;}
+article.nogeen {background-color: #93716f; color: rgb(247, 241, 241);}
+ul.lijstproject {list-style-type:circle;}
+#map { width: 400px; height: 370px; }
+.navbar-nav .nav-link.active {color: white;}
+a.h5 {text-decoration: none; color: rgb(247, 241, 241);}
+section.border.border-dark.rounded-4.mx-3.p-4.shadow-lg {color: rgb(247, 241, 241); background-color: #93716f;}
+label.input-group-text.border.border-dark.border-right-0 , .pb-3.pt-3, .px-4 {color: rgb(247, 241, 241); background-color: #977573; border-color: #b5a09f;}
+input.form-control, textarea.form-control.pt-5.pb-5{background-color: #f1ebea; border-color: #b5a09f;}
+button.btn {background-color: #795c5a; color: rgb(247, 241, 241);}
+a.nav-link:hover {color:white}
+span.ja {background-color: rgb(101, 70, 186);}
+a.linklorem {color: rgb(9, 53, 91);}
+
+@media (max-width: 992px) {
+    #map {
+        width: 700px;
+        height: 370px
+    }
+}
+
+@media (max-width: 775px) {
+    #map {
+        width: 450px;
+        height: 370px
+    }
+}
